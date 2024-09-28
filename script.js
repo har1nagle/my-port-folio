@@ -57,9 +57,10 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 // typed js
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Pursuing', 'Full Stack development'],
+    strings: ['React Developer', 'MERN Stack Developer', 'Full Stack Development'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
 });
+
