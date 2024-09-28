@@ -16,8 +16,8 @@
             <a href="#home" class="active">Home</a>
             <a href="#projects">Projects</a>
             <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+            <!-- <a href="#services">Services</a> -->
+            <!-- <a href="#contact">Contact</a> -->
         </nav>
     </header>
 
@@ -126,7 +126,7 @@
     </section>
 
     <!-- services section -->
-    <section class="services" id="services">
+    <!-- <section class="services" id="services">
         <h2 class="heading">My <span>Services</span></h2>
 
         <div class="services-container">
@@ -152,12 +152,12 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
 
 
     <!-- contact section  -->
-    <section class="contact" id="contact">
+    <!-- <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
         <form action="#">
@@ -173,12 +173,12 @@
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
-    </section>
+    </section> -->
 
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2023 by Hari | All Rights Reserved.</p>
+            <p id="copyright"></p>
         </div>
 
         <div class="footer-iconTop">
@@ -195,6 +195,10 @@
     <script src="./script.js"></script>
     <script src="https://kit.fontawesome.com/435636f3a2.js" crossorigin="anonymous"></script>
     
-   
+   <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("copyright").innerHTML = `Copyright &copy; ${currentYear} by Hari | All Rights Reserved.`;
+    </script>
+    
 </body>
 </html>
